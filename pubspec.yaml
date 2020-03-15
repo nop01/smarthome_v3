@@ -19,7 +19,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  # Bloc for state management
+  flutter_bloc: ^3.2.0
+  # Value equality
+  equatable: ^1.1.1
+  # Service locator
+  get_it: ^4.0.0
+  # Remote API
+  http: ^0.12.0+4
+  # Acquire the IP address of the users device
+  get_ip: ^0.4.0
+  # Customizable circular slider
+  sleek_circular_slider: ^1.1.0
+  # Circular color picker
+  flutter_circle_color_picker: ^0.1.1
+    # Local cache
+  shared_preferences: ^0.5.6+3
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
@@ -27,6 +42,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  mockito: ^4.1.1
 
 
 # For information on the generic Dart part of this file, see the
